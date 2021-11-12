@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    
+    padding: auto;
+    margin: auto;
+}
+
+.container h1{
+    text-align: center;
+    color:  rgb(172, 140, 172);;
+    font-family: 'Shalimar', cursive;
+}
+
+p{
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Shalimar', cursive;
+}
+
+
+input,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 19px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 8px;
+    outline: none;
+    background-color: rgb(172, 140, 172);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button{
+    color:  mediumvioletred;;
+    background-color:black;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.background{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.submit_massage{
+    color: mediumvioletred;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Shalimar', cursive;
+}
